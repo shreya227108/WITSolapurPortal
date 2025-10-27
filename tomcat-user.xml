@@ -1,7 +1,4 @@
-<tomcat-users>
-  <role rolename="manager-gui"/>
-  <role rolename="manager-script"/>
-  <role rolename="admin-gui"/>
-  <role rolename="admin-script"/>
-  <user username="jeckins" password="8243c24c07414eb182adf818d4cb7e92" roles="manager-gui,manager-script,admin-gui,admin-script"/>
-</tomcat-users>
+<role rolename="manager-gui"/>
+<role rolename="manager-script"/>
+<role rolename="admin-gui"/>
+<user username="admin" password="admin" roles="manager-gui,manager-script,admin-gui"/>
